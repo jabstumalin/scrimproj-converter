@@ -22,7 +22,7 @@ function meterFeet() {
     let pound = input * 2.204;
     let kilogram = input / 2.204;
 
-    lengthEl.textContent = input + " meters" + " = " + feet + " feet" + " | " + input + " feet" + " = " + meter.toFixed(3) + " meters";
-    volEl.textContent = input + " liters" + " = " + gallon + " gallon" + " | " + input + " gallon" + " = " + liter.toFixed(3) + " liters";
+    lengthEl.textContent = input + " meters" + " = " + feet.toFixed(3) + " feet" + " | " + input + " feet" + " = " + meter.toFixed(3) + " meters";
+    volEl.textContent = input + " liters" + " = " + gallon.toFixed(3) + " gallon" + " | " + input + " gallon" + " = " + liter.toFixed(3) + " liters";
     weightEl.textContent = input + " kilos" + " = " + pound.toFixed(3) + " pounds" + " | " + input + " pound" + " = " + kilogram.toFixed(3) + " kilos";
 }

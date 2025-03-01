@@ -64,3 +64,14 @@ h2 {
 p {
     margin: 0;
 }
+
+/* Added font colors for each section */
+#length-el {
+    color: #ff6b6b; /* Red color for Length section */
+}
+#vol-el {
+    color: #4b48fb; /* Blue color for Volume section */
+}
+#weight-el {
+    color: #3bd11d; /* Green color for Mass section */
+}
